@@ -4,6 +4,9 @@ import exampleQueue from './queues/queue'
 
 import todoRoute from "./routers/todoRoute"
 
+process.env.TZ = "Asia/Jakarta";
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
 const app = express()
 const port = 3002
 
